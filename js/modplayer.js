@@ -354,6 +354,8 @@ libopenmpt.onRuntimeInitialized = function () {
     var stylesheet = document.getElementById('nightmode-css');
     var fileIcon = document.getElementById('track-file-image');
     var shareIcon = document.getElementById('track-share-image');
+    var turtleIcon = document.getElementById('mirthturtle-logo');
+    var words = document.getElementById('banner-words');
 
     nightMode = !nightMode;
     if (nightMode) {
@@ -361,11 +363,16 @@ libopenmpt.onRuntimeInitialized = function () {
       stylesheet.disabled = '';
       fileIcon.src = "img/file-white.png";
       shareIcon.src = "img/link-white.png";
+      turtleIcon.src = "img/mirthturtle-party.png";
+      words.innerText = "mirthturtle-niiiiiights";
     } else {
       toggleLink.text = "☾"
       stylesheet.disabled = 'disabled';
       fileIcon.src = "img/file.png";
       shareIcon.src = "img/link.png";
+      turtleIcon.src = "img/mirthturtle.png"
+      words.innerText = "mirthturtle-modplayer";
+
     }
   }
 
