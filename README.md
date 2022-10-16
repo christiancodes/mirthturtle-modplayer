@@ -4,4 +4,4 @@
 
 # CRUNCHY RELIABLE BEATS
 
-**[Check it out](https://christiancodes.github.io/crunchy-reliable-beats/)**
+**[Check it out](https://www.mirthturtle.com/crunchy-reliable-beats/)**
